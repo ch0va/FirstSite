@@ -1,0 +1,104 @@
+head, body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #3a1d2d;
+    display: b;
+}
+
+div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.contener{
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+
+.contener > div {
+    flex-direction: column;
+    background: #290a1d;
+    border-radius: 5%;
+    margin: 2rem 1rem 3rem 1rem;
+}
+
+.contener > div > a:hover {
+    font-size: 1.5rem;
+    color: #fffeaa;
+    
+}
+
+.back{
+    font-size: 2rem;
+    border-radius: 10%;
+    margin-bottom: 3rem ;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+button {
+    background: #ffc1eb;
+    border: purple;
+    font-size: 1.2rem;
+    
+}
+
+
+button:hover {
+    background: #ffeaf8;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+a:hover{
+    font-size: 1.6rem;
+    color: #ffdaf3;
+    transition: 0.5s;
+}
+
+img {
+    height: 20rem;
+    width: 15rem;
+    border-radius: 10%;
+}
+
+.icon {
+    height:  15rem;
+    width: 15rem;
+    border-radius: 100%;
+}
+
+p {
+    max-width: 30rem;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+    margin: 1rem 0rem 0rem 0rem;
+}
+.description{
+    margin: 0rem 2rem 1rem 2rem;
+    text-align:justify;
+    font-size: 1rem;
+    font-weight: lighter;
+}
