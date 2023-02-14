@@ -14,7 +14,7 @@ div {
     align-items: center;
     color: white;
     font-size: 1rem;
-    margin: 1rem;
+   
     padding: 1rem;
 }
 
@@ -31,7 +31,7 @@ div {
     flex-direction: column;
     background: #290a1d;
     border-radius: 5%;
-    margin: 2rem 1rem 3rem 1rem;
+    margin: 0 1rem 3rem 1rem;
 }
 
 .contener > div > a:hover {
@@ -48,6 +48,9 @@ div {
 
 h1 {
     font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 button {
