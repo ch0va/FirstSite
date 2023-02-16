@@ -3,7 +3,6 @@ head, body {
     margin: 0;
     padding: 0;
     background: #3a1d2d;
-    display: b;
 }
 
 div {
@@ -14,7 +13,6 @@ div {
     align-items: center;
     color: white;
     font-size: 1rem;
-   
     padding: 1rem;
 }
 
@@ -29,8 +27,8 @@ div {
 
 .contener > div {
     flex-direction: column;
-    background: #290a1d;
-    border-radius: 5%;
+    background:  #2b1521;
+    border-radius: 2rem;
     margin: 0 1rem 3rem 1rem;
 }
 
@@ -42,11 +40,13 @@ div {
 
 .back{
     font-size: 2rem;
-    border-radius: 10%;
+    border-radius: 0.5rem;;
     margin-bottom: 3rem ;
 }
 
 h1 {
+    margin: 0 10rem 0 10rem;
+    flex-wrap: wrap;
     font-size: 2rem;
     color: white;
     text-align: center;
@@ -57,7 +57,7 @@ button {
     background: #ffc1eb;
     border: purple;
     font-size: 1.2rem;
-    
+    border-radius: 0.5rem;;
 }
 
 
@@ -83,7 +83,7 @@ a:hover{
 img {
     height: 20rem;
     width: 15rem;
-    border-radius: 10%;
+    border-radius: 2rem;
 }
 
 .icon {
