@@ -18,6 +18,13 @@ div {
   padding: 1rem;
 }
 
+.MainPage {
+ 
+    margin-top: 20vh;
+    background: #291520;
+    height: 30rem;
+}
+
 .contener {
   justify-content: center;
   flex-direction: row;
@@ -45,12 +52,16 @@ div {
 }
 
 h1 {
-  margin: 0 10rem 0 10rem;
+  margin: 0rem 10rem 0rem 10rem;
   flex-wrap: wrap;
   font-size: 2rem;
   color: white;
   text-align: center;
   margin-top: 1rem;
+}
+
+.HeaderMain {
+    margin-bottom:1rem;
 }
 
 button {

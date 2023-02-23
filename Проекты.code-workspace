@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../Program Files (x86)/OSPanel/domains/localhost"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Проекты"
+	}
+}
